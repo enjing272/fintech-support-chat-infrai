@@ -1,0 +1,7 @@
+{
+  "name": "fintech-support-chat-infrai",
+  "private": true,
+  "type": "module",
+  "scripts": {"test": "node --experimental-strip-types --test test/decision.test.ts", "start": "node --experimental-strip-types src/support_chat.ts"},
+  "dependencies": {"zod": "^3.23.8"}
+}
